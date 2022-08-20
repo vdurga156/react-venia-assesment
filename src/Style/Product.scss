@@ -1,0 +1,329 @@
+* {
+    font-family: "Muli, Regular";
+}
+
+
+@mixin swatch ($color) {
+    background: $color;
+    margin-right: 10px;
+}
+
+$blackcolor: #172026;
+
+.adding-item {
+    font-family: "Muli";
+}
+
+.Sweat-wicking {
+    text-align: center;
+}
+
+.Sizebutton button {
+    border-radius: 5px;
+    width: 55px;
+    height: 35px;
+    padding-left: 5px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.input-group .border {
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 2px #b5b7bc solid !important;
+    color: #b5b7bc;
+    margin-top: -6px;
+}
+.rating-one h6 {
+    font: normal normal normal 16px/24px Muli;
+}
+
+.icn a {
+    font-family: 'Muli';
+}
+
+.button-quantity {
+    font: normal normal 600 20px/30px Muli;
+}
+
+.rating-one h2 {
+    font: normal normal 600 24px/30px Source Serif Pro;
+
+
+
+}
+
+.Sweat-wicking h4 {
+    font: normal normal 600 24px/30px Source Serif Pro;
+
+}
+
+.Sweat-wicking h5 {
+    font: normal normal 600 16px/25px Muli;
+}
+
+.Sweat-wicking p {
+    font: normal normal normal 16px/24px Muli;
+
+}
+
+.size h5 {
+    font: normal normal 600 20px/30px Muli;
+}
+
+.swatch h5 {
+    font: normal normal 600 20px/30px Muli;
+}
+
+.rating-one .pro-t1 {
+    font: normal normal normal 16px/24px Muli;
+}
+
+.rating-one p {
+    font: normal normal 600 20px/30px Muli;
+}
+
+.swatch {
+    padding-bottom: 1rem;
+}
+
+.static1 {
+    margin-top: -1rem;
+}
+
+.swatch img {
+    padding-left: 0px;
+    width: 52px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.swatchone {
+    @include swatch(#2c56e2)
+}
+
+.swatchtwo {
+    @include swatch(#c21273)
+}
+
+.swatchthree {
+    @include swatch(#172026)
+}
+
+.swatchfour {
+    @include swatch(#B5B8BA)
+}
+
+.Details-1 h6 {
+    padding-left: 20px;
+}
+
+.Details-1 h5 {
+    padding-left: 15px;
+}
+
+.details h6 {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.details-1 {
+    padding-top: 0px !important;
+}
+
+
+
+.adding-item {
+    width: 300px;
+    height: 40px;
+
+    background: var(--primary-brand) 0% 0% no-repeat padding-box;
+    background: #E26A2C 0% 0% no-repeat padding-box;
+   
+    opacity: 1;
+}
+
+.one {
+    border-radius: 9px;
+    float: left;
+    width: 84px;
+    text-align: center;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #d3d3d3;
+}
+
+.static .start {
+    float: left;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+}
+
+.static .end {
+    float: left;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+}
+
+.size span {
+    float: left;
+    width: 60px;
+    text-align: center;
+    height: 30px;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 7px;
+
+}
+
+.button-quantity{
+    padding: 1.5rem;
+    margin-left: -1rem;
+}
+
+.icn a {
+    text-decoration: none;
+    color: $blackcolor;
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.icn {
+    padding-left: 90px;
+}
+
+.adding-item {
+    color: white;
+    border: none;
+}
+
+.star-section a {
+    color: $blackcolor;
+    font-size: 14px;
+}
+
+.star-section ul {
+    padding-left: 0px;
+    display: flex;
+}
+
+.swatch {
+    display: flex;
+
+}
+
+.swatch img {
+    right: 47px;
+    position: relative;
+    top: 34px;
+}
+
+.icn {
+display: flex;
+    padding-top: 13px;
+}
+
+.size {
+    padding-top: 37px;
+}
+
+p {
+    color: $blackcolor;
+}
+
+.product-title {
+    padding-top: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+
+    .p-6 img{
+        display: none;
+    }
+
+    .size {
+        display: none;
+    }
+
+    .Sizebutton button {
+
+        width: 47px;
+    }
+
+    .icn a {
+        display: flex;
+    }
+
+    .icn a svg {
+        margin-top: 6px;
+    }
+
+    .oneprice img {
+        height: 410px;
+        width: 270px;
+
+    }
+
+    .Sweat-wicking h4 {
+        text-align: center;
+       }
+
+    .Sweat-wicking p {
+        text-align: center;
+    }
+
+
+    .Details-1 h5 {
+        padding-left: 119px;
+    }
+
+    .Details-1 h6 {
+        padding-left: 3px;
+    }
+
+    .details {
+        padding-left: 127px;
+        margin-top: -73px;
+        margin-bottom: -96px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+    .oneprice {
+        text-align: center;
+    }
+
+    .rating-one {
+        text-align: center;
+    }
+
+    .product-title {
+        text-align: center;
+    }
+
+    .icn {
+        margin-left: 16rem;
+    }
+
+    .icn a {
+        display: flex;
+    }
+
+    .icn a svg {
+        margin-top: 6px;
+    }
+}

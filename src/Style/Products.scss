@@ -1,0 +1,54 @@
+
+.card-title{
+    font-family: "Muli";
+}
+.card-text{
+   font-family: "Muli";
+}
+.Product_card{
+    padding-right: 15px;
+}
+
+.card-title{
+    color: black
+}
+.product_image{
+    align-content: end !important;
+   
+    background-repeat: no-repeat !important;
+    display: grid !important;
+
+    justify-content: end !important;
+    margin: 0 !important;
+   
+    padding: 0 !important;
+    width: 100% !important;
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+.paginationone{
+    display: none;
+}
+.product_image{
+    min-height: 300px !important;
+    background-size: cover !important;
+}
+}
+@media only screen and(min-width:320px) and (max-width:767px){
+    .product_image{
+        min-height: 166px !important;
+        background-size: cover !important;
+    }
+
+}
+@media only screen and(min-width:768px) and (max-width:1279px){
+    .product_image{
+        min-height: 275px !important;
+        background-size: cover !important;
+    }
+}
+@media only screen and(min-width:1441px){
+    .product_image{
+        min-height: 383px !important;
+        background-size: cover !important;
+    }
+}

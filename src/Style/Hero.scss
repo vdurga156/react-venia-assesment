@@ -1,0 +1,190 @@
+* {
+  font-family: "Muli, Regular";
+}
+
+
+.herosection {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.hero-sec .card_1-body {
+
+
+  background-color: #1B252C;
+
+  height: 290px;
+  width: 100%;
+
+}
+
+.hero-sec .card_1_title {
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+  font-size: 3rem;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.l hr {
+  opacity: 3;
+  background-color: #E26A2C;
+  width: 10rem;
+  margin: auto;
+  background-color: 42rem;
+  height: 5px;
+}
+
+.main .card-img {
+  width: 71rem;
+  margin-left: -7.4rem;
+  margin-top: 1rem;
+}
+
+.pic1 img {
+  height: 280px !important;
+  width: 100% !important;
+  position: relative;
+  top: 5px;
+  left: 0px !important;
+}
+
+.lines img {
+  width: 122px;
+  margin-left: 81px;
+}
+
+.hero-sec {
+  padding-bottom: 30px;
+}
+
+
+.sub {
+  display: none;
+}
+
+.herosection .card-body {
+  // margin-left: -6rem;
+  width: 24rem;
+  height: 18rem;
+  background-color: #1B252C;
+}
+
+.herosection .cardone {
+  margin-top: -3rem;
+  // margin-left: -3rem;
+}
+
+.herosection .card-title {
+  color: white;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.card-img {
+  margin-top: -2rem;
+  width: 68rem;
+
+}
+
+.hero_landing-right {
+  height: 310px;
+  margin-left: 0px;
+  background-color: #1b252c;
+}
+
+.hero_land-content {
+  padding: 7em;
+}
+
+.hero_land-content h2.mobile-text {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Source Serif Pro';
+}
+
+.hero_land-content p {
+  color: white;
+  font-size: 40px;
+margin-left: -27px;
+}
+
+.hero-border {
+  border: 3px solid #E26A2C;
+  opacity: 100%;
+  position: relative;
+  width: 5.35rem;
+  margin-left: 0px;
+}
+
+
+.card-img-top {
+  align-content: end !important;
+  background-size: cover !important;
+  display: grid !important;
+  height: 362px !important;
+  justify-content: end !important;
+  margin: 0 !important;
+  min-height: 240px !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.lines img {
+  width: 122px;
+  margin-left: 81px;
+}
+
+.herosection {
+  padding-top: 33px;
+  padding-bottom: 12px;
+}
+
+
+.mob {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 780px){
+  .adc {
+    display: none;
+  }
+
+  .mob {
+    display: block;
+  }
+.l hr{
+  margin: auto;
+}
+  .mob-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.hero-sec .card_1_title{
+  padding-top: 3rem;
+}
+  .card_1-body {
+    width: 90% !important;
+    margin: auto;
+    height: 210px !important;
+  }
+
+  .mob_1 {
+    z-index: 999;
+  }
+
+  .card_1 {
+    margin-top: -2rem;
+  }
+
+  .pic1 img {
+    height: 190px !important;
+    top: 0px;
+  }
+  .paginationone{
+    display: none;
+  }
+}
+

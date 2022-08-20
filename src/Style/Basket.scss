@@ -1,0 +1,221 @@
+.basket {
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        padding-top: 2rem;
+        font-family: "Muli";
+    }
+
+    hr {
+        height: 0.6rem !important;
+        width: 8rem;
+        background-color: #E26A2C!important;
+        margin-bottom: 3rem;
+        margin-left: 35rem !important;
+        opacity: 3;
+    }
+
+    .product {
+        display: flex;
+        padding-top: 0px;
+        text-align: left;
+
+        img {
+            height: 16rem;
+            // margin-top: -4rem;
+            padding-bottom: 0rem;
+
+        }
+
+        div:last-child {
+            padding-left: 2rem;
+            padding-top: 1rem;
+        }
+
+        h6 {
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+    }
+
+    .productimage {
+        color: black;
+    }
+
+    .input-group {
+        padding-top: 3.3rem;
+
+        .border {
+            width: 2rem;
+            height: 2rem;
+            background-color: transparent;
+            border: 2px #B5B7BC solid !important;
+            color: #B5B7BC;
+        }
+
+        .quant {
+            border: 2px #B5B7BC solid;
+            width: 4rem;
+            height: 2rem;
+            text-align: center;
+            border-radius: 6px !important;
+            padding-top: 5px;
+            margin-top: 0.4rem;
+        }
+
+        p:last-child {
+            font-size: .9rem;
+        }
+    }
+
+    .icon {
+        padding-top: 1.5rem;
+
+        p {
+            // font-size: .8rem;
+            // font-weight: 500;
+            margin-bottom: 0.5rem;
+            display: flex;
+            font-family: "Muli";
+        }
+    }
+
+    .basket-t h6 {
+        font: normal normal normal 16px/24px Muli;
+    }
+    .basket-1{
+        font: normal normal normal 16px/24px Muli;
+    }
+    .basket-left{
+        font: normal normal normal 16px/24px Muli;
+    }
+    .cartdetails {
+        border: 2px #D1D3D6 solid;
+        padding: 2rem;
+        box-shadow: 5px 10px 8px 10px #0000000d;
+        border-radius: 0.3rem;
+
+        h5 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        h6 {
+            font-size: 13px;
+            font-weight: 400;
+            // padding-top: 0rem;
+            
+        }
+
+        button {
+            padding-top: 1rem;
+        }
+
+        .check {
+            border: none;
+            background-color: #E26A2C;
+            color: white;
+            padding: 8px 70px;
+    
+            margin-top: 1rem;
+            height: 47px;
+            width: 231px;
+
+            p {
+                color: white;
+                position: relative;
+                bottom: 34px;
+                left: 17px;
+            }
+        }
+
+        .paypal {
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+.buttonsone {
+    text-align: center;
+}
+
+// Result start 
+
+.acco-right {
+    padding-left: 14rem;
+}
+
+// Recently Viewed
+
+.caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.accordianphone {
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px) {
+    .basket .input-group {
+        padding-top: 0.3rem;
+        margin-left: 173px;
+        margin-top: -18px;
+    }
+    .basket-1 {
+        font: normal normal normal 16px/24px Muli;
+    }
+
+    .basket-t h6 {
+        font: normal normal normal 16px/24px Muli;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .basket hr {
+        height: 0.6rem !important;
+        width: 27%;
+        background-color: #E26A2C !important;
+        margin-bottom: 3rem;
+        margin-left: 8rem !important;
+        opacity: 3;
+    }
+
+    .acco-right {
+        padding-left: 8rem;
+    }
+
+    .accordianone {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+    .icon {
+        display: none;
+    }
+
+    .basket hr {
+        display: none;
+    }
+
+    .accordianone {
+        display: none;
+    }
+
+}

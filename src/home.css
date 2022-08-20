@@ -1,0 +1,15 @@
+.card-desc h3 {
+    padding-top: 12px;
+    text-align: center;
+    font-family: "Source Serif Pro";
+    font: normal normal 300 16px/30px Source Serif Pro;
+    letter-spacing: 0px;
+}
+
+ .card-desc {
+    background-color: #1B252CD9;
+    width: 276px;
+    color: white;
+
+
+}

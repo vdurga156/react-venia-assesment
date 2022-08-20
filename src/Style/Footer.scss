@@ -1,0 +1,165 @@
+$black: #545D63;
+$blue: #172026;
+
+.footer-section-signin a {
+  text-decoration: none;
+  color: $black;
+  font-size: 16px;
+}
+.footer-section{
+  border-top: 4px solid #ccc;
+  margin-top: 53px;
+}
+
+.footer-block{
+  padding-top: 40px;
+
+}
+.footer-section-account ul,
+.footer-section-about ul,
+.footer_help ul {
+  padding-left: 0px;
+}
+
+.footer-section-aboutus li,
+.footer-section-signin li {
+  list-style-type: none;
+
+}
+
+.footone {
+  padding-bottom: 2rem;
+}
+.footer-section-account h6,
+.footer-section-about h6,
+.footer_help h6,
+.footer_follow h6 {
+  letter-spacing: 1px;
+
+  color: #172026;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Muli";
+    padding-bottom: 15px;
+}
+
+.footer-section-signin li,
+.footer_follow p,
+.footer-section-aboutus a,
+.footer_help_one a {
+  text-decoration: none;
+  font-family: 'Muli';
+  letter-spacing: 1px;
+  color: $black;
+  font-size: 16px;
+}
+
+.footer_help_one li {
+  list-style-type: none;
+}
+.foot-logo{
+  font-family: "Muli";
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 6px;
+  color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+.footer_follow p {
+  color: $black;
+}
+
+.footer_follow h6,
+.footer_help h6,
+.footer-section-about h6,
+.footer-section-account h6 {
+  color: $blue;
+ 
+}
+
+.footer_terms {
+  display: flex;
+  gap: 20px;
+}
+
+.footer_terms a {
+  color: $blue;
+  font-size: 14px;
+}
+
+.footerp {
+  color: $black;
+  font-size: 14px;
+}
+
+.social-links a {
+  font-size: 20px;
+  color: $blue;
+}
+
+.social-links {
+  display: flex;
+}
+
+.footerphone {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 765px) {
+  .footer_termsphone {
+    padding-left: 70px;
+    display: flex;
+    gap: 20px;
+    padding-top: 26px;
+  }
+.footer-section{
+  border-top: 4px solid #ccc;
+  margin-top: 53px;
+}
+  .footer_termsphone a {
+    color: $blue;
+    font-size: 14px;
+  }
+
+  .footerphone {
+    display: block;
+  }
+.footerphone p{
+  font: normal normal normal 14px/18px Muli;
+}
+  .footerdesktop {
+    display: none;
+  }
+
+  .footerphone {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+  .footer_termsphone {
+    display: none;
+
+  }
+
+  .footer_termsphone a {
+    color: $blue;
+    font-size: 14px;
+  }
+
+  .footerphone {
+    display: block;
+  }
+
+  .footerdesktop {
+    display: none;
+  }
+
+  .footerphone {
+    text-align: center;
+  }
+}

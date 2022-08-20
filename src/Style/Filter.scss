@@ -1,0 +1,138 @@
+*{
+    font-family: "Muli, Regular";
+}
+
+@mixin buttons ($color) {
+    border-radius: 5px;
+    background-color: $color;
+    height: 40px;
+    width: 54px;
+}
+.basket-1 h6{
+    padding-bottom: 8px;
+}
+.colors {
+    display: flex;
+    gap: 4px;
+}
+.results{
+    text-align: center;
+    position: relative;
+    bottom: 36px;
+    font-family: "Muli";
+}
+.colors1 {
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.square {
+    @include buttons(#172026)
+}
+
+.square1 {
+    @include buttons(#085ea0)
+}
+
+.square2 {
+    @include buttons(#c0b50d)
+}
+
+.square3 {
+    @include buttons(#8b0516)
+}
+
+.square4 {
+    @include buttons(#6408D3)
+}
+
+.square5 {
+    @include buttons(#E34850)
+}
+
+.square6 {
+    @include buttons(#F9009A)
+}
+
+.square7 {
+    @include buttons(#EB7327)
+}
+
+.square8 {
+    @include buttons(#a54307)
+}
+
+
+
+.colorfilter {
+    display: flex;
+    gap: 2px;
+}
+
+label {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Muli";
+}
+.attribute{
+    font-family: "Muli";
+}
+.filter{
+    font-family: "Muli";
+}
+.filter {
+    padding-top: 20px;
+    color: #181C24;
+    font-size: 14px;
+}
+
+
+.bread .mobile {
+    display: none;
+}
+
+// Media Quries
+
+@media only screen and (max-width: 768px) {
+    .bread .desk {
+        display: none;
+    }
+
+    .bread .mobile {
+        display: block;
+    }
+
+    .mobile .category {
+        font-size: 1.5rem;
+    }
+
+    .mobile h5 {
+        padding-top: 2rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .mobile h6 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 3rem;
+    }
+
+    .filterone {
+        display: none;
+    }
+    // .results{
+    //     bottom: 0px;
+    // }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .filterone {
+        display: none;
+    }
+    .results{
+        bottom: 0px;
+    }
+}
